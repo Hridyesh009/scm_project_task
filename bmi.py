@@ -34,8 +34,8 @@ f1b=Frame(f1,width=600,height=600,bd=60,relief="raise")
 f1b.pack(side=TOP)
 
 lblTitle=Label(Tops,text="           BODY MASS INDEX (BMI)         ",padx=16,pady=16,bd=16,
-               fg="#000000",font=('arial',54,'bold'),
-               bg="Red",relief='raise',width= 32 ,height=1)
+               fg="#000000",font=('Times New Roman',64,'bold','Underline'),
+               bg="Purple",relief='raise',width= 32 ,height=1)
 lblTitle.pack()
 
 lblweight=Label(f1a, text= "Select Weight in Kilograms(KGs)",font=('arial',20,'bold'),bd=20).grid(row=0,column=0)      
@@ -47,7 +47,7 @@ txtheight=Entry(f1b,textvariable=var2,font=('arial',16,'bold'),bd=16,width=22,ju
 txtheight.grid(row=1,column=0)
 
 lblBMIResult = Label(f1b,padx=16,pady=16,bd=16,
-               fg="#000000",font=('arial',30,'bold'),
+               fg="#000000",font=('arial',30,'Italic'),
                bg="red",relief='sunk',width= 34,height= 1 )
 lblBMIResult.grid(row=2,column=0)
 
