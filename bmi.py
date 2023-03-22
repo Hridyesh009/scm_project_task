@@ -28,17 +28,17 @@ f1.pack(side=LEFT)
 f2=Frame(root,width=300,height=700,bd=8,relief="raise")
 f2.pack(side=RIGHT)
 
-f1a=Frame(f1,width=600,height=200,bd=20,relief="raise")
+f1a=Frame(f1,width=600,height=200,bd=80,relief="raise")
 f1a.pack(side=TOP)
-f1b=Frame(f1,width=600,height=600,bd=20,relief="raise")
+f1b=Frame(f1,width=600,height=600,bd=60,relief="raise")
 f1b.pack(side=TOP)
 
-lblTitle=Label(Tops,text="           BODY MASS INDEX           ",padx=16,pady=16,bd=16,
+lblTitle=Label(Tops,text="           BODY MASS INDEX (BMI)         ",padx=16,pady=16,bd=16,
                fg="#000000",font=('arial',54,'bold'),
-               bg="sky blue",relief='raise',width= 32 ,height=1)
+               bg="Red",relief='raise',width= 32 ,height=1)
 lblTitle.pack()
 
-lblweight=Label(f1a, text= "Select Weight in Kilograms",font=('arial',20,'bold'),bd=20).grid(row=0,column=0)      
+lblweight=Label(f1a, text= "Select Weight in Kilograms(KGs)",font=('arial',20,'bold'),bd=20).grid(row=0,column=0)      
 Bodyweight=Scale(f1a,variable= var1,from_= 1,to=500,length=880,tickinterval=30,orient=HORIZONTAL)
 Bodyweight.grid(row=1,column=0)
 
