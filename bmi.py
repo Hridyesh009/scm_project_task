@@ -10,7 +10,7 @@ from tkinter import *
 root=Tk()
 root.geometry("1350x650+0+0")
 root.resizable(0,0)
-root.title("BMI")
+root.title("Basal metabolic index")
 
 def BMI_Cal():
     BHeight=float(var2.get())
