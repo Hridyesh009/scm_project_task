@@ -58,11 +58,11 @@ txtlblBMITable.grid(row=1,column=0)
 
 
 txtlblBMITable.insert(END,'Meaning\t\t'+"BMI\n\n")
-txtlblBMITable.insert(END,'Normal weight \t\t'+"18-24,9\n\n")
-txtlblBMITable.insert(END,'Overweight\t\t'+"25-29,9\n\n")
-txtlblBMITable.insert(END,'Obesity level I \t\t'+"30-34,9\n\n")
-txtlblBMITable.insert(END,'Obesity level II \t\t'+"-35-39,9\n\n")
-txtlblBMITable.insert(END,'Obesity level III \t\t'+">=40\n\n")
+txtlblBMITable.insert(END,'Normal weight you are fit! \t\t'+"18-24,9\n\n")
+txtlblBMITable.insert(END,'Overweight take care of your health \t\t'+"25-29,9\n\n")
+txtlblBMITable.insert(END,'Obesity level I you need to exercise \t\t'+"30-34,9\n\n")
+txtlblBMITable.insert(END,'Obesity level II you need to go on a crash diet \t\t'+"-35-39,9\n\n")
+txtlblBMITable.insert(END,'Obesity level III  bhagwan bachaye\t\t'+">=40\n\n")
 
 btnBMI= Button(f2,text="Click to \n Check Your \nBMI",padx=8,pady=8,bd=12,width=21,
                font=('arial',20,'bold'),height=3,command=BMI_Cal)
